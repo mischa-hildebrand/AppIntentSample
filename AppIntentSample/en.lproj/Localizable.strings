@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  AppIntentSample
+
+  Created by Mischa on 02.08.23.
+  
+*/
+
+"Say may name" = "Say may name";
+
+"Says your name after you enter it." = "Says your name after you enter it.";
+
+"Repeat this name %@" = "Repeat this name %@";
+
+"Your Name" = "Your Name";
+
+"%@ Say my name. Repeat: %@." = "%@ Say my name. Repeat: %@.";

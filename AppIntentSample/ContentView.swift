@@ -5,6 +5,8 @@
 //  Created by Mischa on 31.07.23.
 //
 
+import AppIntents
+import Intents
 import SwiftUI
 
 struct ContentView: View {
@@ -16,6 +18,9 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            CoffeeShortcuts.updateAppShortcutParameters()
+        }
     }
 }
 

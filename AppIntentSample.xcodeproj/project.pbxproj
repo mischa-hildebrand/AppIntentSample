@@ -11,15 +11,19 @@
 		A18DDDBF2A785B4B00149446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DDDBE2A785B4B00149446 /* ContentView.swift */; };
 		A18DDDC12A785B4C00149446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18DDDC02A785B4C00149446 /* Assets.xcassets */; };
 		A18DDDC52A785B4C00149446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18DDDC42A785B4C00149446 /* Preview Assets.xcassets */; };
+		A18DDDCC2A785B5000149446 /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DDDCB2A785B5000149446 /* AppIntents.swift */; };
+		A18DDDCF2A7AFB6300149446 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A18DDDD12A7AFB6300149446 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A18DDDB92A785B4B00149446 /* AppIntentSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntentSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18DDDB92A785B4B00149446 /* Espressimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Espressimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18DDDBC2A785B4B00149446 /* AppIntentSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentSampleApp.swift; sourceTree = "<group>"; };
 		A18DDDBE2A785B4B00149446 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A18DDDC02A785B4C00149446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A18DDDC22A785B4C00149446 /* AppIntentSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppIntentSample.entitlements; sourceTree = "<group>"; };
 		A18DDDC42A785B4C00149446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A18DDDCB2A785B5000149446 /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
+		A18DDDD02A7AFB6300149446 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +42,14 @@
 			children = (
 				A18DDDBB2A785B4B00149446 /* AppIntentSample */,
 				A18DDDBA2A785B4B00149446 /* Products */,
+				A1C3FF752A7AFDA400002D2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A18DDDBA2A785B4B00149446 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A18DDDB92A785B4B00149446 /* AppIntentSample.app */,
+				A18DDDB92A785B4B00149446 /* Espressimo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +59,8 @@
 			children = (
 				A18DDDBC2A785B4B00149446 /* AppIntentSampleApp.swift */,
 				A18DDDBE2A785B4B00149446 /* ContentView.swift */,
+				A18DDDCB2A785B5000149446 /* AppIntents.swift */,
+				A18DDDD12A7AFB6300149446 /* Localizable.strings */,
 				A18DDDC02A785B4C00149446 /* Assets.xcassets */,
 				A18DDDC22A785B4C00149446 /* AppIntentSample.entitlements */,
 				A18DDDC32A785B4C00149446 /* Preview Content */,
@@ -69,12 +76,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A1C3FF752A7AFDA400002D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A18DDDB82A785B4B00149446 /* AppIntentSample */ = {
+		A18DDDB82A785B4B00149446 /* Espressimo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A18DDDC82A785B4C00149446 /* Build configuration list for PBXNativeTarget "AppIntentSample" */;
+			buildConfigurationList = A18DDDC82A785B4C00149446 /* Build configuration list for PBXNativeTarget "Espressimo" */;
 			buildPhases = (
 				A18DDDB52A785B4B00149446 /* Sources */,
 				A18DDDB62A785B4B00149446 /* Frameworks */,
@@ -84,9 +98,11 @@
 			);
 			dependencies = (
 			);
-			name = AppIntentSample;
+			name = Espressimo;
+			packageProductDependencies = (
+			);
 			productName = AppIntentSample;
-			productReference = A18DDDB92A785B4B00149446 /* AppIntentSample.app */;
+			productReference = A18DDDB92A785B4B00149446 /* Espressimo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A18DDDB82A785B4B00149446 /* AppIntentSample */,
+				A18DDDB82A785B4B00149446 /* Espressimo */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A18DDDC52A785B4C00149446 /* Preview Assets.xcassets in Resources */,
+				A18DDDCF2A7AFB6300149446 /* Localizable.strings in Resources */,
 				A18DDDC12A785B4C00149446 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +158,22 @@
 			files = (
 				A18DDDBF2A785B4B00149446 /* ContentView.swift in Sources */,
 				A18DDDBD2A785B4B00149446 /* AppIntentSampleApp.swift in Sources */,
+				A18DDDCC2A785B5000149446 /* AppIntents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A18DDDD12A7AFB6300149446 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18DDDD02A7AFB6300149446 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A18DDDC62A785B4C00149446 /* Debug */ = {
@@ -197,6 +226,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +280,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -344,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A18DDDC82A785B4C00149446 /* Build configuration list for PBXNativeTarget "AppIntentSample" */ = {
+		A18DDDC82A785B4C00149446 /* Build configuration list for PBXNativeTarget "Espressimo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A18DDDC92A785B4C00149446 /* Debug */,
